@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.umumi{
+    width: 100%;
+    display: flex;
+}
+.umumi img{
+    width: 40%;
+}
+.b{
+    padding-left: 40px;
+    display: flex;
+    width: 60%;
+}
+.c{
+    display: flex;  
+}
+
+.c .form-group select{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+label{
+    display: block;
+}
+.form-group{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form-group input{
+    width: 100%;
+    padding: 5px;
+}
+#adres,#dob,#pin,#cours,#email{
+    width: 100%;
+   
+}
+.e{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+.e input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.name-surname{
+    width:50%;
+}
+
+
+.x{
+    margin-left: 250px;
+}
+.form-group input[type="submit"]{
+    width: 100px;
+    background-color: coral;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.form-group input[type="reset"]{
+    border: none;
+    color: grey;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+}
+
